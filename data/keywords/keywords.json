@@ -1,0 +1,16 @@
+[
+  {"category":"Ma Việt Nam","language":"vi","phrases":["chuyện ma","gặp ma","mình từng gặp ma","mình từng thấy ma","mình từng nghe tiếng lạ","chuyện này có thật","xin kể chuyện ma","mọi người có tin ma","vong theo","bị ma trêu","nhìn thấy người đã mất"]},
+  {"category":"Phòng / Chung cư","language":"vi","phrases":["phòng trọ","nhà trọ","chung cư","căn hộ cũ","phòng bên cạnh không có ai","người thuê trước","chủ trọ","ở nhà một mình","ngủ một mình","hành lang chung cư","căn phòng bị khóa"]},
+  {"category":"Ban đêm","language":"vi","phrases":["3 giờ sáng","2 giờ sáng","đêm khuya","ca đêm","trực đêm","đêm hôm đó","đi đêm","tỉnh dậy lúc 3 giờ sáng","đến giờ vẫn sợ","từ hôm đó","sáng hôm sau"]},
+  {"category":"Bệnh viện","language":"vi","phrases":["bệnh viện","trực bệnh viện","y tá ca đêm","phòng bệnh trống","nhà xác","chuông gọi y tá","bệnh nhân đã mất","hành lang bệnh viện","tiếng trẻ con bệnh viện"]},
+  {"category":"Trường học","language":"vi","phrases":["ký túc xá","trường học ban đêm","nhà vệ sinh trường học","lớp học trống","bảo vệ trường học","cầu thang trường","phòng thí nghiệm cũ","tiếng khóc ở trường"]},
+  {"category":"Tài xế","language":"vi","phrases":["tài xế","Grab ban đêm","shipper đi đêm","khách lạ trên xe","chuyến xe cuối","đường vắng","người vẫy xe","địa chỉ nghĩa trang"]},
+  {"category":"Trẻ em","language":"vi","phrases":["đứa trẻ","nghe tiếng trẻ con","con nói chuyện một mình","bạn tưởng tượng","đứa bé nhìn thấy","tiếng ru con","đồ chơi tự chạy","bức vẽ kỳ lạ"]},
+  {"category":"CCTV","language":"vi","phrases":["camera","CCTV","camera quay được","bóng người trong camera","camera báo chuyển động","xem lại camera","camera hành lang","có người đứng","hình ảnh biến mất"]},
+  {"category":"Giấc ngủ","language":"vi","phrases":["bóng đè","ác mộng","tỉnh giấc giữa đêm","người đứng cuối giường","nghe gọi tên lúc ngủ","mộng lặp lại","không thể cử động","giấc mơ thành thật"]},
+  {"category":"Cái chết","language":"vi","phrases":["nghĩa trang","đám tang","bàn thờ","người đã chết","mất tích","cuộc gọi từ người chết","tin nhắn cuối cùng","ảnh thờ","ngôi mộ lạ"]},
+  {"category":"Truyền thuyết đô thị","language":"vi","phrases":["nhà hoang","khách sạn ma ám","nhà nghỉ kỳ lạ","thang máy tầng 13","cầu thang vô tận","con đường ma","truyền thuyết đô thị Việt Nam","gương lúc nửa đêm","bà cụ ven đường"]},
+  {"category":"Bí ẩn Internet","language":"vi","phrases":["bí ẩn Internet","tài khoản người mất","video không rõ nguồn","website kỳ lạ","tin nhắn ẩn danh","livestream bí ẩn","ảnh không nên phóng to","số điện thoại lạ","camera web kỳ lạ"]},
+  {"category":"Gặp gỡ kỳ lạ","language":"vi","phrases":["người lạ ngoài cửa","tiếng gõ cửa","tiếng bước chân","tiếng khóc","không giải thích được","không ai biết","điều kỳ lạ là","nhưng rồi","thứ đáng sợ nhất","có người đứng","người giống hệt mình"]},
+  {"category":"English Horror","language":"en","phrases":["ghost story","creepy encounter","paranormal experience","true horror","haunted house","night shift horror","urban legend","strange encounter","unexplained event","rules horror","creepy CCTV footage","someone knocking at night","alone in an apartment","hospital ghost story","night driver encounter","missing person mystery","Internet mystery","child imaginary friend","elevator to nonexistent floor","security guard night shift"]}
+]

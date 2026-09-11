@@ -1,0 +1,87 @@
+[
+  {
+    "id": "boarding-room-camera",
+    "title": "Camera trong phòng trọ ghi lại một bóng người lúc 3 giờ sáng",
+    "source_url": "https://example.com/demo/phong-tro-camera",
+    "author": "demo_nguyen",
+    "author_url": "https://example.com/demo-author",
+    "created_at": "2026-09-11T02:41:00+07:00",
+    "language": "vi",
+    "tags": ["Phòng / Chung cư", "CCTV", "3 giờ sáng"],
+    "reply_count": 84,
+    "like_count": 723,
+    "media_type": "VIDEO",
+    "text": "Mình ở nhà một mình trong một phòng trọ cũ. Đêm hôm đó, đúng 3 giờ sáng, camera báo có chuyển động ở góc bếp. Mình mở điện thoại xem thì thấy một bóng người đứng quay lưng ngay sau cửa, nhưng trong phòng rõ ràng chỉ có mình. Sau đó mình gọi chủ trọ. Điều kỳ lạ là bà ấy hỏi ngay: ‘Nó lại đứng ở bếp à?’. Sáng hôm sau, chủ trọ mới kể người thuê trước từng mất tích và camera của cô ấy cũng ghi được đúng bóng người đó. Đến giờ mình vẫn không giải thích được vì sao cửa chưa từng mở."
+  },
+  {
+    "id": "hospital-night-shift",
+    "title": "Cuộc gọi từ căn phòng bệnh viện đã bị khóa",
+    "source_url": "https://example.com/demo/benh-vien-ca-dem",
+    "author": "demo_yta",
+    "author_url": "https://example.com/demo-yta",
+    "created_at": "2026-09-10T23:18:00+07:00",
+    "language": "vi",
+    "tags": ["Bệnh viện", "Ca đêm"],
+    "reply_count": 51,
+    "like_count": 481,
+    "media_type": "TEXT_POST",
+    "text": "Tôi trực bệnh viện ca đêm vào một ngày mưa. Khoảng 2 giờ sáng, chuông gọi y tá từ phòng 407 vang lên liên tục. Tôi định vào kiểm tra nhưng đồng nghiệp kéo lại, vì phòng đó đã khóa từ tuần trước. Đột nhiên loa nội bộ phát ra tiếng một đứa trẻ khóc và gọi đúng tên tôi. Khi bảo vệ mở cửa, căn phòng hoàn toàn trống. Nhưng rồi chúng tôi phát hiện chiếc giường phủ bụi có một vết lõm mới, như vừa có người ngồi dậy."
+  },
+  {
+    "id": "elevator-floor",
+    "title": "Thang máy dừng ở tầng không tồn tại",
+    "source_url": "https://example.com/demo/thang-may",
+    "author": "demo_linh",
+    "author_url": "https://example.com/demo-linh",
+    "created_at": "2026-09-10T18:05:00+07:00",
+    "language": "vi",
+    "tags": ["Chung cư", "Thang máy"],
+    "reply_count": 37,
+    "like_count": 310,
+    "media_type": "TEXT_POST",
+    "text": "Hôm đó mình về chung cư rất muộn. Thang máy đang đi từ tầng 12 xuống thì đột nhiên dừng ở tầng 13, dù bảng nút bấm không có số 13. Cửa mở ra một hành lang tối và có người lạ đứng cuối hành lang vẫy tay. Mình bấm đóng cửa nhưng người đó chạy tới nhanh bất thường. Sáng hôm sau mình hỏi bảo vệ, họ nói tòa nhà chưa bao giờ xây tầng 13. Đáng sợ nhất là camera trong thang máy không hề ghi lại hình ảnh của mình đêm đó."
+  },
+  {
+    "id": "grab-passenger",
+    "title": "Vị khách đặt Grab đến địa chỉ là một nghĩa trang",
+    "source_url": "https://example.com/demo/grab-nghia-trang",
+    "author": "demo_taixe",
+    "author_url": "https://example.com/demo-driver",
+    "created_at": "2026-09-09T22:12:00+07:00",
+    "language": "vi",
+    "tags": ["Tài xế", "Nghĩa trang", "Đi đêm"],
+    "reply_count": 129,
+    "like_count": 1102,
+    "media_type": "TEXT_POST",
+    "text": "Tui chạy Grab ca đêm và nhận một cuốc xe của cô gái mặc áo trắng. Suốt đường cô ấy không nói gì, chỉ nhắn rằng hãy dừng trước cổng nghĩa trang. Khi tới nơi, tui quay lại thì ghế sau trống không nhưng dây an toàn vẫn đang cài. Sau đó ứng dụng hiện chuyến đi đã được đặt từ một tài khoản ngừng hoạt động ba năm trước. Tui gọi số điện thoại thì một bà cụ bắt máy và nói con gái bà đã chết đúng trên cung đường ấy."
+  },
+  {
+    "id": "dorm-knocking",
+    "title": "Tiếng gõ cửa phòng ký túc xá mỗi đêm",
+    "source_url": "https://example.com/demo/ky-tuc-xa-go-cua",
+    "author": "demo_sinhvien",
+    "author_url": "https://example.com/demo-student",
+    "created_at": "2026-09-08T03:04:00+07:00",
+    "language": "vi",
+    "tags": ["Trường học", "Ký túc xá", "Gõ cửa"],
+    "reply_count": 22,
+    "like_count": 196,
+    "media_type": "TEXT_POST",
+    "text": "Em từng nghe tiếng gõ cửa ký túc xá vào đúng 3 giờ sáng trong ba đêm liền. Mỗi lần nhìn qua mắt mèo đều không có ai. Đêm thứ tư, bạn cùng phòng quay camera rồi mở cửa thật nhanh. Hành lang trống, nhưng camera lại ghi được một bàn tay từ phía trong phòng đang gõ lên cánh cửa. Từ hôm đó chúng em chuyển phòng, nhưng tiếng gõ vẫn xuất hiện trong file ghi âm cũ dù điện thoại đã tắt."
+  },
+  {
+    "id": "old-house-child",
+    "title": "Đứa trẻ nói chuyện với người thuê trước",
+    "source_url": "https://example.com/demo/ngoi-nha-cu",
+    "author": "demo_mebe",
+    "author_url": "https://example.com/demo-parent",
+    "created_at": "2026-09-07T20:20:00+07:00",
+    "language": "vi",
+    "tags": ["Trẻ em", "Nhà cũ"],
+    "reply_count": 68,
+    "like_count": 544,
+    "media_type": "IMAGE",
+    "text": "Gia đình tôi chuyển vào một ngôi nhà cũ. Con gái bốn tuổi thường nhìn lên cầu thang và nói chuyện với ‘cô Mai’. Chúng tôi nghĩ đó là bạn tưởng tượng cho đến khi con bé mô tả chiếc váy đỏ và vết sẹo trên tay cô ấy. Chủ nhà cũ lặng người khi nghe kể rồi đưa ra một bức ảnh. Người trong ảnh giống hệt mô tả, là người thuê trước đã mất trong căn nhà. Nhưng điều khiến tôi sợ nhất là con bé nói cô Mai đang cảnh báo chúng tôi đừng mở căn gác."
+  }
+]
+

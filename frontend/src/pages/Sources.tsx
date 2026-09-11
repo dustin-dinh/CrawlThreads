@@ -1,0 +1,10 @@
+import { Database, ExternalLink, FlaskConical } from 'lucide-react'
+import { useEffect, useState } from 'react'
+import PageHeader from '../components/PageHeader'
+import { ErrorBox, Loading } from '../components/States'
+import { api } from '../services/api'
+
+type Source={slug:string;name:string;enabled:boolean;configured:boolean;kind:string;message:string}
+const descriptions:Record<string,string>={demo:'Dữ liệu minh họa cục bộ, giúp thử trọn luồng mà không cần credential.',threads:'Tìm bài viết công khai qua endpoint keyword_search của Meta Threads API.',reddit:'Tìm bài công khai bằng Reddit OAuth API; giữ permalink, tác giả và metadata.'}
+export default function Sources(){const[data,setData]=useState<Source[]|null>(null);const[error,setError]=useState('');const load=()=>api.get<Source[]>('/sources').then(setData).catch(e=>setError(e.message));useEffect(load,[]);const toggle=async(s:Source)=>{await api.patch(`/sources/${s.slug}?enabled=${!s.enabled}`);load()};return <><PageHeader eyebrow="Adapter architecture" title="Nguồn dữ liệu" description="Mỗi nguồn chuẩn hóa về cùng một mô hình và có cơ chế lỗi độc lập."/>{error&&<ErrorBox message={error}/>} {!data?<Loading/>:<div className="grid source-grid">{data.map(s=><section className="panel source-card" key={s.slug}><div className="source-logo">{s.slug==='demo'?<FlaskConical/>:<Database/>}</div><div className="panel-title"><h3>{s.name}</h3><input className="toggle" type="checkbox" checked={s.enabled} onChange={()=>toggle(s)}/></div><p>{descriptions[s.slug]}</p><div className={s.configured?'configured':'not-configured'}>{s.message}</div>{s.slug==='threads'&&<a className="btn ghost small" style={{marginTop:14}} href="https://developers.facebook.com/docs/threads/keyword-search" target="_blank" rel="noreferrer"><ExternalLink size={13}/> Tài liệu Meta</a>}</section>)}</div>}<div className="notice"><b>Nguyên tắc:</b> chỉ truy cập dữ liệu công khai bằng API chính thức. Không cookie trình duyệt, CAPTCHA, nội dung riêng tư hay vượt giới hạn truy cập.</div></>}
+

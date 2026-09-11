@@ -1,0 +1,9 @@
+import { RefreshCw } from 'lucide-react'
+import { useEffect, useState } from 'react'
+import PageHeader from '../components/PageHeader'
+import { Empty, ErrorBox, Loading } from '../components/States'
+import { api } from '../services/api'
+
+type Run={id:number;source:string;query:string;started_at:string;completed_at?:string;status:string;results_found:number;new_results:number;duplicates:number;errors?:string;duration_ms?:number}
+export default function SearchJobs(){const[data,setData]=useState<{items:Run[];total:number;page:number;pages:number}|null>(null);const[error,setError]=useState('');const[busy,setBusy]=useState<number|null>(null);const load=()=>api.get<typeof data>('/search-runs').then(setData).catch(e=>setError(e.message));useEffect(load,[]);const retry=async(id:number)=>{setBusy(id);await api.post(`/search-runs/${id}/retry`);setBusy(null);load()};if(!data&&!error)return<Loading/>;return <><PageHeader eyebrow="Audit trail" title="Lịch sử crawl" description="Mỗi truy vấn và nguồn tạo một bản ghi riêng với thời gian, số kết quả, bản trùng và lỗi."/>{error&&<ErrorBox message={error}/>}<div className="table-wrap"><table><thead><tr><th>Thời gian</th><th>Nguồn</th><th>Từ khóa</th><th>Trạng thái</th><th>Tìm thấy</th><th>Mới</th><th>Trùng</th><th>Thời lượng</th><th></th></tr></thead><tbody>{data?.items.map(r=><tr key={r.id}><td>{new Date(r.started_at).toLocaleString('vi-VN')}</td><td>{r.source}</td><td>{r.query}</td><td><span title={r.errors} className={`status ${r.status.toLowerCase()}`}>{r.status}</span></td><td>{r.results_found}</td><td>{r.new_results}</td><td>{r.duplicates}</td><td>{r.duration_ms??0} ms</td><td><button className="btn ghost small" disabled={busy===r.id} onClick={()=>retry(r.id)}><RefreshCw size={13}/>{busy===r.id?'…':'Thử lại'}</button></td></tr>)}</tbody></table>{!data?.items.length&&<Empty title="Chưa có lượt tìm kiếm"/>}</div></>}
+
